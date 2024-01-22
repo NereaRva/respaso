@@ -1,0 +1,45 @@
+body{
+    margin:  5% 10%;
+    background-color: burlywood;
+}
+.header-container{
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    color: rgba(0, 0, 0, 0.417);
+    
+    font-size:x-large;
+    font: oblique bold 100% cursive;
+}
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+}
+.doneTask{
+    width: 100%;
+}
+.doneTask ul{
+    list-style-type: none;
+    border-left: 1px solid grey;
+}
+.doneTask h3{
+    border-bottom: 1px solid grey;
+}
+.toList{
+    width: 100%;
+}
+.toList ul{
+    list-style-type: none;
+    display: flex;
+}
+.task {
+    width: 100%;
+    margin-bottom: 10px; 
+}
+form {
+    margin-left: 10px; 
+}
